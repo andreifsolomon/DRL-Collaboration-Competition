@@ -41,9 +41,6 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 2. Place the file in the DRLND GitHub repository, in the `p3_collab-compet/` folder, and unzip (or decompress) the file. 
 
-### Instructions
-
-Follow the instructions in `Tennis.ipynb` to get started with training your own agent!  
 
 ### (Optional) Challenge: Soccer Environment
 
