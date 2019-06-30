@@ -64,3 +64,18 @@ You need only select the environment that matches your operating system:
 Then, place the file in the `p3_collab-compet/` folder in the DRLND GitHub repository, and unzip (or decompress) the file.  Next, open `Soccer.ipynb` and follow the instructions to learn how to use the Python API to control the agent.
 
 (_For AWS_) If you'd like to train the agents on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Soccer/Soccer_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agents without enabling a virtual screen, but you will be able to train the agents.  (_To watch the agents, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
+
+### Repository Contents
+
+
+- **Tennis.ipynb** - this is a notebook that contains the training code
+- **Tennis-Viewer.ipynb** - notebook that can be used to view the final model, saved as 'best_actor_model.pth'
+- **dqn_agent.py** - this contains the implementation of the agent and the replay buffer
+- **model.py** - contains the Actor and Critic Networks implementations.
+
+- **best_actor_model.pth** - final saved weights after training
+
+### Instructions
+
+Follow the instructions in `Tennis.ipynb` to get started with training your own agent!  
+When done execute `Tennis-Viewer.ipynb` to view the trained model results.
